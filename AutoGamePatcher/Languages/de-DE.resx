@@ -1,0 +1,339 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ABOUT" xml:space="preserve">
+    <value>Über</value>
+  </data>
+  <data name="ABOUT_AUTO_GAME_PATCHER_VERSION" xml:space="preserve">
+    <value>Auto Game Patcher Version:</value>
+  </data>
+  <data name="ABOUT_DEVELOPER_AND_CONTRIBUTERS" xml:space="preserve">
+    <value>Über den Entwickler und die Beitragenden:</value>
+  </data>
+  <data name="ABOUT_DEVELOPER_AND_CONTRIBUTERS_TEXT" xml:space="preserve">
+    <value>Diese Software wurde von Ethem Kurt, auch bekannt als "BigETI" erstellt
+und gilt unter der Lizenz "General Public License v3.0".</value>
+  </data>
+  <data name="ABOUT_PROJECT" xml:space="preserve">
+    <value>Projekt:</value>
+  </data>
+  <data name="ABOUT_PROJECT_TEXT" xml:space="preserve">
+    <value>Das Projekt befindet sich auf GitHub.
+</value>
+  </data>
+  <data name="ABOUT_THIS_SOFTWARE" xml:space="preserve">
+    <value>Über diese Software:</value>
+  </data>
+  <data name="ABOUT_THIS_SOFTWARE_TEXT" xml:space="preserve">
+    <value>Diese Software erlaubt es Spiele sicher und temporär zu patchen.
+Viele Modifikationen erfodern die Modifikation von Spieldaten,
+welches mit der Zeit nervig sein kann.
+Schlechte Modifikationen tendieren dazu
+das Spiel kaputt zu machen und/or Konflikte
+mit anderen Mods zu produzieren.
+Mod Entwickler haben Werkzeuge Entwickelt,
+um gegen diese Probleme anzukämpfen.
+Um mehrere Spiele sicher zu modifizieren benötigt man mehrere Lösungen,
+auch bekannt als "Mod Loaders" um es auszugleichen.
+Diese Software ist eine Antwort zur Modding Community um Spieldaten zuverlässig und einfach zu modifizieren.
+</value>
+  </data>
+  <data name="ABOUT_TRANSLATIONS" xml:space="preserve">
+    <value>Übersetzungen:</value>
+  </data>
+  <data name="ABOUT_TRANSLATIONS_TEXT" xml:space="preserve">
+    <value>Englisch - Ethem Kurt
+Deutsch - Ethem Kurt
+</value>
+  </data>
+  <data name="ADDITIONAL_INFO" xml:space="preserve">
+    <value>Zusätzliche Info</value>
+  </data>
+  <data name="ADD_DIRECTORY" xml:space="preserve">
+    <value>Verzeichnis hinzufügen</value>
+  </data>
+  <data name="ADD_FILE" xml:space="preserve">
+    <value>Datei hinzufügen</value>
+  </data>
+  <data name="APPEARANCE" xml:space="preserve">
+    <value>Darstellung</value>
+  </data>
+  <data name="ASSIGN_PATCH_FILE_ENTRY_TO_CONTINUE" xml:space="preserve">
+    <value>Setzen Sie eine Patchdateieintragsnamen um fortzufahren</value>
+  </data>
+  <data name="AUTHOR" xml:space="preserve">
+    <value>Autor</value>
+  </data>
+  <data name="AUTO_GAME_PATCHER" xml:space="preserve">
+    <value>Auto Game Patcher</value>
+  </data>
+  <data name="CANCEL" xml:space="preserve">
+    <value>Abbrechen</value>
+  </data>
+  <data name="CONFIGURE" xml:space="preserve">
+    <value>Konfigurieren</value>
+  </data>
+  <data name="CREATE_PATCH" xml:space="preserve">
+    <value>Patch erstellen</value>
+  </data>
+  <data name="DELETE_ENTRY_QUESTION" xml:space="preserve">
+    <value>Möchten Sie wirklich diesen Eintrag löschen?</value>
+  </data>
+  <data name="DELETE_ENTRY_TITLE" xml:space="preserve">
+    <value>Eintrag löschen</value>
+  </data>
+  <data name="DESCRIPTION" xml:space="preserve">
+    <value>Beschreibung</value>
+  </data>
+  <data name="DIRECTORIES" xml:space="preserve">
+    <value>Verzeichnisse</value>
+  </data>
+  <data name="DOCUMENTATION_AND_HELP" xml:space="preserve">
+    <value>Dokumentationen &amp;&amp; Hilfe</value>
+  </data>
+  <data name="EDIT_PATCH" xml:space="preserve">
+    <value>Patch bearbeiten</value>
+  </data>
+  <data name="ENGLISH" xml:space="preserve">
+    <value>Englisch/English</value>
+  </data>
+  <data name="ENTRY_ALREADY_EXISTS" xml:space="preserve">
+    <value>Eintrag existiert bereits</value>
+  </data>
+  <data name="EXECUTABLE" xml:space="preserve">
+    <value>Ausführbares</value>
+  </data>
+  <data name="FILES" xml:space="preserve">
+    <value>Dateien</value>
+  </data>
+  <data name="FILE_ALREADY_EXISTS" xml:space="preserve">
+    <value>Datei existiert bereits</value>
+  </data>
+  <data name="FILE_NAME" xml:space="preserve">
+    <value>Dateiname</value>
+  </data>
+  <data name="GAME_FILES_DIRECTORY" xml:space="preserve">
+    <value>Spielverzeichnis</value>
+  </data>
+  <data name="GAME_PATCHES" xml:space="preserve">
+    <value>Spiel-Patches</value>
+  </data>
+  <data name="GERMAN" xml:space="preserve">
+    <value>Deutsch</value>
+  </data>
+  <data name="HOW_TO_CREATE" xml:space="preserve">
+    <value>Wie erstelle ich?</value>
+  </data>
+  <data name="HOW_TO_IMPORT" xml:space="preserve">
+    <value>Wie importiere ich?</value>
+  </data>
+  <data name="HOW_TO_SHARE" xml:space="preserve">
+    <value>Wie teile ich?</value>
+  </data>
+  <data name="IMAGE_LINK" xml:space="preserve">
+    <value>Bild link</value>
+  </data>
+  <data name="IMAGE_LOAD_ERROR" xml:space="preserve">
+    <value>Bildladefehler</value>
+  </data>
+  <data name="IMAGE_REFERENCE_ERROR" xml:space="preserve">
+    <value>Das Link bezieht sich nicht auf ein gültiges Bild</value>
+  </data>
+  <data name="IMPORT_CREATE_PATCH" xml:space="preserve">
+    <value>Importiere/Erstelle Patch</value>
+  </data>
+  <data name="IMPORT_PATCH" xml:space="preserve">
+    <value>Importiere Patch</value>
+  </data>
+  <data name="INTERNAL" xml:space="preserve">
+    <value>Intern</value>
+  </data>
+  <data name="INVALID_FILE" xml:space="preserve">
+    <value>Ungültige Datei</value>
+  </data>
+  <data name="LESS" xml:space="preserve">
+    <value>Weniger...</value>
+  </data>
+  <data name="MANAGE_FILES" xml:space="preserve">
+    <value>Dateien verwalten</value>
+  </data>
+  <data name="MORE" xml:space="preserve">
+    <value>Mehr...</value>
+  </data>
+  <data name="OK" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="PATCHES" xml:space="preserve">
+    <value>Patches</value>
+  </data>
+  <data name="PATCH_CONFIGURATION" xml:space="preserve">
+    <value>Patchkonfiguration</value>
+  </data>
+  <data name="PATCH_FILE_ENTRY" xml:space="preserve">
+    <value>Patchdateieintrag</value>
+  </data>
+  <data name="PREVIEW_IMAGE" xml:space="preserve">
+    <value>Bildvorschau</value>
+  </data>
+  <data name="SELECT_FILES_TO_PATCH_FILE" xml:space="preserve">
+    <value>Datei auswählen für die Patchdatei</value>
+  </data>
+  <data name="SELECT_FILE_NAME" xml:space="preserve">
+    <value>Wählen Sie einen Dateinamen</value>
+  </data>
+  <data name="SELECT_FILE_NAME_TO_CONTINUE" xml:space="preserve">
+    <value>Wählen Sie einen Dateinamen um zu importieren.</value>
+  </data>
+  <data name="SELECT_LANGUAGE" xml:space="preserve">
+    <value>Sprache/Language auswählen</value>
+  </data>
+  <data name="SELECT_STYLE" xml:space="preserve">
+    <value>Stil auswählen...</value>
+  </data>
+  <data name="SELECT_THEME" xml:space="preserve">
+    <value>Thema auswählen...</value>
+  </data>
+  <data name="SELECT_TO_IMPORT" xml:space="preserve">
+    <value>Bitte wählen Sie eine Patchdatei um zu importieren.</value>
+  </data>
+  <data name="SETTINGS" xml:space="preserve">
+    <value>Einstellungen</value>
+  </data>
+  <data name="STYLES" xml:space="preserve">
+    <value>Stile</value>
+  </data>
+  <data name="THEMES" xml:space="preserve">
+    <value>Themen</value>
+  </data>
+  <data name="THIS_ENTRY_ALREADY_EXISTS" xml:space="preserve">
+    <value>Dieser Eintrag existiert bereits.</value>
+  </data>
+  <data name="THIS_FILE_ALREADY_EXISTS" xml:space="preserve">
+    <value>Diese Datei existiert bereits. Möchten Sie es wirklich überschreiben?</value>
+  </data>
+  <data name="THIS_IS_NOT_AGP_FILE" xml:space="preserve">
+    <value>Das ist keine "Auto Game Patcher" Datei.</value>
+  </data>
+  <data name="TITLE" xml:space="preserve">
+    <value>Titel</value>
+  </data>
+  <data name="VERSION" xml:space="preserve">
+    <value>Version</value>
+  </data>
+</root>
