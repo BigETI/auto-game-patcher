@@ -1,2 +1,2 @@
-# auto-game-patcher
-This software allows patching games in runtime non-permanently.
+# Auto Game Patcher
+This software allows patching games reliably and temporarily.
